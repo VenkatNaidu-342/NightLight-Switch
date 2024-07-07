@@ -20,6 +20,7 @@ input[type="checkbox"] {
     background-color: #c6c6c6;
     appearance: none;
     transition: 0.5s;
+    cursor: pointer;
 }
 
 input:checked[type="checkbox"] {
@@ -36,7 +37,6 @@ input[type="checkbox"]::before {
     border-radius: 50%;
     background-color: white;
     transition: 0.5s;
-    cursor: pointer;
 }
 
 input:checked[type="checkbox"]::before {
